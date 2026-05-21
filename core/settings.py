@@ -10,7 +10,11 @@ SECRET_KEY = 'django-insecure-zkebt8mdge+q94c&&@=7olb#1f+^(1x(-i8s2y^rw4*hdt&5p9
 
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [
+    "movie-review-api.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 
@@ -29,6 +33,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',

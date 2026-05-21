@@ -86,10 +86,7 @@ multidict==6.7.0
 openai==1.79.0
 package_name==0.1
 packaging==24.2
-pdf2image==1.17.0
-pikepdf==10.1.0
-pilkit==3.0
-Pillow==10.0.1
+Pillow==11.2.1
 pluggy==1.5.0
 propcache==0.4.1
 proto-plus==1.27.0

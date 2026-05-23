@@ -12,7 +12,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Use environment variable with fallback for local development
 SECRET_KEY = os.environ.get("SECRET_KEY", 'django-insecure-zkebt8mdge+q94c&&@=7olb#1f+^(1x(-i8s2y^rw4*hdt&5p9')
 
-DEBUG = os.environ.get("DEBUG", "False") == "True"
+DEBUG = False
 
 ALLOWED_HOSTS = [
     "movie-review-api.onrender.com",

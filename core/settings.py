@@ -15,7 +15,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY", 'django-insecure-zkebt8mdge+q94c&&@=7o
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "movie-review-api.onrender.com",
+    "https://movie-review-3-fd14.onrender.com",
     "localhost",
     "127.0.0.1",
 ]
